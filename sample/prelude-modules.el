@@ -13,7 +13,7 @@
 
 ;;; Programming languages support
 (require 'prelude-c)
-;; (require 'prelude-clojure)
+(require 'prelude-clojure)
 ;; (require 'prelude-coffee)
 ;; (require 'prelude-common-lisp)
 ;; (require 'prelude-css)
@@ -21,7 +21,7 @@
 ;; (require 'prelude-erlang)
 ;; (require 'prelude-elixir)
 ;; (require 'prelude-go)
-;; (require 'prelude-haskell)
+(require 'prelude-haskell)
 (require 'prelude-js)
 ;; (require 'prelude-latex)
 (require 'prelude-lisp)
@@ -36,5 +36,5 @@
 (require 'prelude-shell)
 ;; (require 'prelude-scss)
 ;; (require 'prelude-web) ;; Emacs mode for web templates
-(require 'prelude-xml)
-;; (require 'prelude-yaml)
+;;(require 'prelude-xml)
+(require 'prelude-yaml)
